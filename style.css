@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Star Jedi";
+    src: local(Star Jedi), url(/Starjedi.ttf);
+}
+
+* {
+    background-image: url(/sw_background.jpg);
+    background-repeat: no-repeat;
+}
+
+p {
+    background-color: black;
+    color: #FFE81F;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 300px;
+    font-family: "Star Jedi";
+    text-align: justify;
+    transform: perspective(300px) rotateX(20deg);
+}
+
